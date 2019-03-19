@@ -1,4 +1,4 @@
-![alt text](https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_final%20(1).png) 
+![alt text](https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_medium.png) 
 # Example of calculating the total area of Finnish lakes using Taito.
 ## Workflow
 ### 1. Install needed libraries for your script
