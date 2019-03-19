@@ -1,12 +1,10 @@
 # Example of calculating the total area of Finnish lakes using Taito. ![alt text](https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_final%20(1).png) 
 
-
+## Workflow
+### 1. Install needed libraries for your script
 There are a lot of python libraries available at Taito already. In this
 example we are using the fiona library to read GeoPackage file and calculate
 the sum of the areas of the lake features in Finland. 
-
-## Workflow
-### 1. Install needed libraries for your script
 Unfortunately the available fiona library does not support reading GeoPackage files, 
 so we need to install a newer version locally.
 This can be done by creating a virtualenv in which we can install packages in
