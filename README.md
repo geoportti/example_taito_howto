@@ -21,7 +21,7 @@ Once the environment is created, activate it and install a newer fiona.
 source venvs/fiona_gpkg/bin/activate
 pip install --upgrade fiona
 ```
-### 2. Create and download your script to Taito 
+### 2. Create your script and download it to Taito 
 The script [taito_LakeExample_script.py](https://github.com/geoportti/example_taito_howto/blob/master/taito_LakeExample_script.py)
 sums the areas of all of the features in a given file and a layer. In this case the file *'MTK-vakavesi_19-01-23.gpkg'* contains two
 layers, 'jarvi' (lake) and 'meri' (sea).
@@ -37,15 +37,15 @@ In this example the analysis is so simple that most of the time is probably
 used in reading the file. Therefore the parallelization may not provide
 noticeable speedup.
 
-Save the script file into your work folder on Taito.
+Save the script file into your working directory on Taito.
 
 ### 3. Create a batch job script for running your code
-The job is sent into the queue of Taito by a another script called the batch job.
+The job is sent into the queue of Taito by a another script called the [batch job](https://github.com/geoportti/example_taito_howto/blob/master/LakeRun.job.txt).
 Batch Job tells the queue for example system how many jobs is requested and what is the estimated running time of the script.
 In batch job it is essential that we load the required modules and activate the virtual environment.
-Save the batch job into your work forlder on Taito
+Save the batch job into your working directory on Taito
 
-### 4. Submitting the job into the queue
+### 4. Submit the job into the queue
 
 Submit the job into the queue with the following command on Taito command prompt:
 ```
@@ -55,4 +55,5 @@ The progress can be checked for example with the command
 ```
 squeue | grep <your username>
 ```
-
+### 5. See your results
+When the run is complete you can see the results in the batch output file in your working directory.
