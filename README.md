@@ -56,3 +56,7 @@ squeue | grep <your username>
 ```
 ### 5. See your results
 When the run is complete you can see the results in the batch output file in your working directory.
+
+## Citing
+"We made use of geospatial data/computing resources provided by the Open Geospatial Information Infrastructure for Research (oGIIR, urn:nbn:fi:research-infras-2016072513) funded by the Academy of Finland."
+ 
