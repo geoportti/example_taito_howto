@@ -1,3 +1,4 @@
+![alt text](https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_final%20(1).png)
 # Lake Example
 
 There are a lot of python libraries available at Taito already. In this
