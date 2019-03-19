@@ -5,7 +5,7 @@ example we are using the fiona library to read GeoPackage file and calculate
 the sum of the areas of the lake features in Finland. 
 
 ## Workflow
-### 1. Install needed libraries for Python
+### 1. Install needed libraries for your script
 Unfortunately the available fiona library does not support reading GeoPackage files, 
 so we need to install a newer version locally.
 This can be done by creating a virtualenv in which we can install packages in
@@ -21,7 +21,7 @@ Once the environment is created, activate it and install a newer fiona.
 source venvs/fiona_gpkg/bin/activate
 pip install --upgrade fiona
 ```
-### 2. Create your script and download it to Taito 
+### 2. Create your script and download it into Taito
 The script [taito_LakeExample_script.py](https://github.com/geoportti/example_taito_howto/blob/master/taito_LakeExample_script.py)
 sums the areas of all of the features in a given file and a layer. In this case the file *'MTK-vakavesi_19-01-23.gpkg'* contains two
 layers, 'jarvi' (lake) and 'meri' (sea).
@@ -43,7 +43,7 @@ Save the script file into your working directory on Taito.
 The job is sent into the queue of Taito by a another script called the [batch job](https://github.com/geoportti/example_taito_howto/blob/master/LakeRun.job.txt).
 Batch Job tells the queue for example system how many jobs is requested and what is the estimated running time of the script.
 In batch job it is essential that we load the required modules and activate the virtual environment.
-Save the batch job into your working directory on Taito
+Save the batch job into your working directory on Taito.
 
 ### 4. Submit the job into the queue
 
@@ -51,7 +51,7 @@ Submit the job into the queue with the following command on Taito command prompt
 ```
 sbatch LakeRun.job
 ```
-The progress can be checked for example with the command
+The progress can be checked for example with the command:
 ```
 squeue | grep <your username>
 ```
