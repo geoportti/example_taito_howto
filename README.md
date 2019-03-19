@@ -1,6 +1,4 @@
-This repository is an example of using the computing services and the 
-open data available in Taito in your research. The repository also works
-as an example of sharing your code here at github
+#Lake Example
 
 There are a lot of python libraries available at Taito already. In this
 example we are using the fiona library to read GeoPackage file and calculate
