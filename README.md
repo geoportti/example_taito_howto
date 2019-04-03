@@ -1,6 +1,6 @@
 <img src="https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_484px.png" width="300">
 
-# Example of calculating the total area of Finnish lakes using Taito.
+# Example of calculating the total area of Finnish lakes using Taito
 ## Workflow
 ### 1. Install needed libraries for your script
 There are a lot of python libraries available at Taito already. In this
