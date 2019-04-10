@@ -1,4 +1,4 @@
-<img src="https://github.com/geoportti/example_taito_howto/blob/master/geoportti_logo_484px.png" width="300">
+<img src="https://github.com/geoportti/Logos/blob/master/geoportti_logo_484px.png">
 
 # Example of calculating the total area of Finnish lakes using Taito
 ## Workflow
