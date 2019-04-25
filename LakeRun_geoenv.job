@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH -J array_job
+#SBATCH -o array_job_out_%A_%a.txt
+#SBATCH -e array_job_err_%A_%a.txt
+#SBATCH -t 00:05:00
+#SBATCH --array=0-9
+#SBATCH -n 1
+#SBATCH -p serial
+
+module purge
+module load geo-env
+
+source ~/venvs/fiona_gpkg/bin/activate
+
+cd $WRKDIR
+
+python taito_LakeExample_script_geoenv.py $SLURM_ARRAY_TASK_ID 10
