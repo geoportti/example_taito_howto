@@ -1,6 +1,6 @@
 <img src="https://github.com/geoportti/Logos/blob/master/geoportti_logo_300px.png">
 
-# Example of calculating the total area of Finnish lakes using Taito
+# Example of calculating the total area of Finnish lakes based on the Topographic database using Taito
 ## Workflow
 ### 1. Prepare your environment
 #### Python 3
